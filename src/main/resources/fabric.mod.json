@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "meowchest",
+  "version": "${version}",
+  "name": "Meow Chest",
+  "description": "Click a chest: it meows, grows cat ears and spins once around.",
+  "authors": ["VALTUMY"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.valtumy.meowchest.MeowChest"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
